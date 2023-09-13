@@ -1,0 +1,54 @@
+body {
+    background-color: #F3E9D2;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-style: oblique;
+    color: #96705B;
+}
+
+h2 {
+    color: #658E9C;
+    font-size: 40px;
+    text-align: center;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    font-size: 30px;
+}
+
+#opciones {
+    text-align: center;
+    list-style: none;
+    /* elimina los puntitos (viñeta) */
+}
+
+#opciones li {
+    display: inline-block;
+    /* la lista la coloca horizontalmente */
+    padding: 10px;
+}
+
+.boton {
+    font-size: 30px;
+    text-decoration: none;
+    /* Eliminamos el subrayado del enlace */
+    color: rgb(0, 0, 0);
+    border: 5px solid #684756;
+    padding: 5px;
+    /* margen interior */
+    border-radius: 5px;
+    display: inline-block
+}
+
+.pic {
+    width: 236px;
+    height: 236px;
+}
